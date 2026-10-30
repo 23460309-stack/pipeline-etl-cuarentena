@@ -1,0 +1,33 @@
+﻿prueba,esperado,obtenido,resultado
+Monto negativo en retiro,VALOR_INVALIDO,VALOR_INVALIDO + VALOR_INVALIDO,OK
+Monto cero en un retiro,MONTO_INVALIDO,MONTO_INVALIDO,OK
+Monto no numérico ('abc'),VALOR_INVALIDO,VALOR_INVALIDO,OK
+Monto nulo,VALOR_INVALIDO,VALOR_INVALIDO,OK
+CLABE de 5 dígitos,CLABE_INVALIDA,CLABE_INVALIDA,OK
+CLABE con letras,CLABE_INVALIDA,CLABE_INVALIDA,OK
+Correo sin arroba,EMAIL_MALFORMADO,EMAIL_MALFORMADO,OK
+Correo con doble arroba,EMAIL_MALFORMADO,EMAIL_MALFORMADO,OK
+Cuenta huérfana,CUENTA_HUERFANA,CUENTA_HUERFANA,OK
+Formato de cuenta roto,CUENTA_FORMATO_INVALIDO,CUENTA_FORMATO_INVALIDO,OK
+Fecha imposible (mes 13),VALOR_INVALIDO,VALOR_INVALIDO,OK
+Fecha nula,VALOR_INVALIDO,VALOR_INVALIDO,OK
+Hora inválida,HORA_INVALIDA,HORA_INVALIDA,OK
+Estado desconocido,VALOR_INVALIDO,VALOR_INVALIDO,OK
+Moneda no soportada (EUR),VALOR_INVALIDO,VALOR_INVALIDO,OK
+Conversión de moneda inconsistente,CONVERSION_INCONSISTENTE,CONVERSION_INCONSISTENTE,OK
+ATM sin id_cajero,ATM_SIN_CAJERO,ATM_SIN_CAJERO,OK
+Transferencia sin CLABE,DIGITAL_INCOMPLETO,DIGITAL_INCOMPLETO,OK
+ID de transacción con formato raro,ID_INVALIDO,ID_INVALIDO,OK
+ID de transacción nulo,VALOR_INVALIDO,VALOR_INVALIDO,OK
+Segmento inexistente,VALOR_INVALIDO,VALOR_INVALIDO,OK
+"Monto normalizado fuera de [0,1]",VALOR_INVALIDO,VALOR_INVALIDO,OK
+Varios fallos a la vez,CLABE_INVALIDA + EMAIL_MALFORMADO + CUENTA_HUERFANA,CLABE_INVALIDA + EMAIL_MALFORMADO + CUENTA_HUERFANA,OK
+Registro completamente vacío,VALOR_INVALIDO,VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO + VALOR_INVALIDO,OK
+Concepto con acentos y símbolos (válido),VALIDO,VALIDO,OK
+Cuenta con espacios alrededor (válido),VALIDO,VALIDO,OK
+Correo 'ANONIMO' (válido),VALIDO,VALIDO,OK
+Lote mixto (corruptos + 20 buenos) sin detenerse,23 válidos / 24 cuarentena,23 válidos / 24 cuarentena,OK
+BD: carga normal de 5 registros,"COMMIT, 5 filas","COMMIT, 5 filas",OK
+BD: llave duplicada en medio de la carga,"ROLLBACK, 5 filas intactas","ROLLBACK, 5 filas",OK
+BD: monto negativo viola restricción CHECK,"ROLLBACK, 5 filas intactas","ROLLBACK, 5 filas",OK
+BD: recarga del mismo lote (idempotencia),"COMMIT, 5 filas (sin duplicar)","COMMIT, 5 filas",OK

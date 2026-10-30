@@ -1,0 +1,4 @@
+﻿fuente,filas,columnas,duplicados_exactos,duplicados_por_llave,llave
+catalogo_cuentas,50,6,0,0,id_cuenta
+transacciones_atm,620,8,20,20,id_transaccion
+transferencias_digitales,600,10,0,0,transfer_id

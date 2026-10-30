@@ -1,0 +1,4 @@
+﻿columna,nulos_antes,nulos_despues,metodo
+monto_mxn,27,0,Mediana por tipo_operacion (CONSULTA_SALDO = 0)
+id_cajero,42,0,Etiqueta 'CAJERO_DESCONOCIDO'
+notification_email,16,0,Etiqueta 'ANONIMO'

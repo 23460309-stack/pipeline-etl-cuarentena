@@ -1,0 +1,51 @@
+id_cuenta,titular,tipo_cuenta,limite_credito_mxn,fecha_apertura,estado_cuenta
+CTA-0001,Rosa Ruiz,Empresarial,200000.0,2025-08-16,ACTIVA
+CTA-0002,Helena Ruiz,Empresarial,100000.0,2024-10-15,ACTIVA
+CTA-0003,Olga Ruiz,Débito Nómina,0.0,2024-05-04,ACTIVA
+CTA-0004,Teresa Martínez,Ahorro,0.0,2025-08-06,ACTIVA
+CTA-0005,Mariana Ramírez,Crédito Oro,100000.0,2024-08-09,ACTIVA
+CTA-0006,Jimena Torres,Empresarial,100000.0,2023-09-24,BLOQUEADA
+CTA-0007,Sergio Reyes,Crédito Oro,50000.0,2024-08-19,ACTIVA
+CTA-0008,Carlos Reyes,Crédito Platino,25000.0,2023-05-31,ACTIVA
+CTA-0009,Ignacio Cruz,Empresarial,50000.0,2023-10-04,ACTIVA
+CTA-0010,Helena Gutiérrez,Ahorro,0.0,2023-12-15,ACTIVA
+CTA-0011,Gabriel Gómez,Empresarial,200000.0,2023-07-25,ACTIVA
+CTA-0012,Valeria Vázquez,Ahorro,0.0,2025-06-09,ACTIVA
+CTA-0013,Jimena Rodríguez,Crédito Platino,100000.0,2023-02-23,BLOQUEADA
+CTA-0014,Ulises Díaz,Ahorro,0.0,2022-08-29,ACTIVA
+CTA-0015,Helena Rodríguez,Empresarial,100000.0,2023-01-10,BLOQUEADA
+CTA-0016,Mariana Sánchez,Crédito Oro,200000.0,2023-07-09,SUSPENDIDA
+CTA-0017,Patricio Torres,Crédito Platino,50000.0,2023-06-06,SUSPENDIDA
+CTA-0018,Carlos Ramírez,Débito Nómina,0.0,2024-02-11,SUSPENDIDA
+CTA-0019,Nestor Hernández,Débito Nómina,0.0,2023-01-22,ACTIVA
+CTA-0020,Rosa Jiménez,Empresarial,100000.0,2024-11-12,SUSPENDIDA
+CTA-0021,Olga Rodríguez,Crédito Platino,25000.0,2024-05-25,BLOQUEADA
+CTA-0022,Valeria López,Crédito Oro,200000.0,2024-03-03,ACTIVA
+CTA-0023,Daniela González,Ahorro,0.0,2022-09-09,ACTIVA
+CTA-0024,Beatriz García,Débito Nómina,0.0,2023-07-23,ACTIVA
+CTA-0025,Teresa Torres,Crédito Platino,50000.0,2022-07-16,BLOQUEADA
+CTA-0026,Gabriel García,Empresarial,25000.0,2022-01-21,ACTIVA
+CTA-0027,Luis Ruiz,Crédito Platino,100000.0,2024-05-30,ACTIVA
+CTA-0028,Helena Sánchez,Empresarial,100000.0,2025-02-05,ACTIVA
+CTA-0029,Helena González,Débito Nómina,0.0,2025-02-07,SUSPENDIDA
+CTA-0030,Luis Sánchez,Ahorro,0.0,2024-02-24,ACTIVA
+CTA-0031,Teresa Ruiz,Débito Nómina,0.0,2022-11-25,ACTIVA
+CTA-0032,Ulises Ruiz,Crédito Platino,200000.0,2022-09-13,ACTIVA
+CTA-0033,Helena Vázquez,Ahorro,0.0,2023-05-11,BLOQUEADA
+CTA-0034,Valeria Pérez,Ahorro,0.0,2023-03-28,ACTIVA
+CTA-0035,Daniela Hernández,Ahorro,0.0,2025-10-06,ACTIVA
+CTA-0036,Olga Gutiérrez,Empresarial,200000.0,2024-07-02,ACTIVA
+CTA-0037,Helena López,Débito Nómina,0.0,2024-04-16,BLOQUEADA
+CTA-0038,Patricio González,Crédito Oro,200000.0,2022-02-17,SUSPENDIDA
+CTA-0039,Ignacio Rodríguez,Crédito Oro,200000.0,2024-12-09,ACTIVA
+CTA-0040,Luis Hernández,Crédito Oro,200000.0,2024-06-24,SUSPENDIDA
+CTA-0041,Gabriel Flores,Ahorro,0.0,2022-06-08,SUSPENDIDA
+CTA-0042,Nestor Pérez,Crédito Oro,50000.0,2023-03-23,ACTIVA
+CTA-0043,Mariana Morales,Crédito Platino,50000.0,2023-08-19,ACTIVA
+CTA-0044,Nestor Ruiz,Crédito Oro,25000.0,2025-02-27,ACTIVA
+CTA-0045,Carlos Jiménez,Débito Nómina,0.0,2024-03-07,SUSPENDIDA
+CTA-0046,Mariana Flores,Crédito Oro,25000.0,2024-10-02,BLOQUEADA
+CTA-0047,Patricio Vázquez,Débito Nómina,0.0,2024-06-14,ACTIVA
+CTA-0048,Mariana Sánchez,Crédito Platino,100000.0,2023-06-17,BLOQUEADA
+CTA-0049,Fernanda Pérez,Ahorro,0.0,2025-04-14,SUSPENDIDA
+CTA-0050,Valeria Díaz,Ahorro,0.0,2022-03-16,BLOQUEADA
